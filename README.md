@@ -831,3 +831,7 @@ See [the Vercel documentation](https://vercel.com/docs/concepts/projects/environ
 ## Keep your fork up to date
 
 You can keep your fork, and thus your private Vercel instance up to date with the upstream using GitHub's [Sync Fork button](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork). You can also use the [pull](https://github.com/wei/pull) package created by [@wei](https://github.com/wei) to automate this process.
+
+# Acknowledgements
+
+This project is a fork of the original [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) by Anurag Hazra.
