@@ -305,7 +305,7 @@ const getWebAimLink = (color1, color2) => {
  * @returns {string} GRS theme url.
  */
 const getGRSLink = (colors) => {
-  const url = `https://github-readme-stats.vercel.app/api?username=sehmaluva`;
+  const url = `https://stats.sehmaluva.me/api?username=sehmaluva`;
   const colorString = Object.keys(colors)
     .map((colorKey) => `${colorKey}=${colors[colorKey]}`)
     .join("&");

@@ -28,7 +28,7 @@ You can pass a query parameter `&hide=` to hide any specific stats with comma-se
 > Options: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehmaluva&hide=contribs,prs)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api?username=sehmaluva&hide=contribs,prs)
 ```
 
 ### Showing additional individual stats
@@ -38,7 +38,7 @@ You can pass a query parameter `&show=` to show any specific additional stats wi
 > Options: `&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehmaluva&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api?username=sehmaluva&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 ```
 
 ### Showing icons
@@ -46,7 +46,7 @@ You can pass a query parameter `&show=` to show any specific additional stats wi
 To enable icons, you can pass `&show_icons=true` in the query param, like so:
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehmaluva&show_icons=true)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api?username=sehmaluva&show_icons=true)
 ```
 
 ### Showing commits count for specified year
@@ -54,7 +54,7 @@ To enable icons, you can pass `&show_icons=true` in the query param, like so:
 You can specify a year and fetch only the commits that were made in that year by passing `&commits_year=YYYY` to the parameter.
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehmaluva&commits_year=2020)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api?username=sehmaluva&commits_year=2020)
 ```
 
 ### Themes
@@ -64,7 +64,7 @@ With inbuilt themes, you can customize the look of the card without doing any [m
 Use `&theme=THEME_NAME` parameter like so :
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehmaluva&show_icons=true&theme=radical)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api?username=sehmaluva&show_icons=true&theme=radical)
 ```
 
 #### All inbuilt themes
@@ -77,8 +77,8 @@ You can look at a preview for [all available themes](themes/README.md) or checko
 
 #### Responsive Card Theme
 
-[![Anurag's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=sehmaluva\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/sehmaluva/github-readme-stats#responsive-card-theme#gh-dark-mode-only)
-[![Anurag's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=sehmaluva\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/sehmaluva/github-readme-stats#responsive-card-theme#gh-light-mode-only)
+[![Sehmaluva's GitHub Stats-Dark](https://stats.sehmaluva.me/api?username=sehmaluva\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/sehmaluva/github-readme-stats#responsive-card-theme#gh-dark-mode-only)
+[![Sehmaluva's GitHub Stats-Light](https://stats.sehmaluva.me/api?username=sehmaluva\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/sehmaluva/github-readme-stats#responsive-card-theme#gh-light-mode-only)
 
 Since GitHub will re-upload the cards and serve them from their [CDN](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-anonymized-urls), we can not infer the browser/GitHub theme on the server side. There are, however, four methods you can use to create dynamics themes on the client side.
 
@@ -87,13 +87,13 @@ Since GitHub will re-upload the cards and serve them from their [CDN](https://do
 We have included a `transparent` theme that has a transparent background. This theme is optimized to look good on GitHub's dark and light default themes. You can enable this theme using the `&theme=transparent` parameter like so:
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehmaluva&show_icons=true&theme=transparent)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api?username=sehmaluva&show_icons=true&theme=transparent)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehmaluva\&show_icons=true\&theme=transparent)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api?username=sehmaluva\&show_icons=true\&theme=transparent)
 
 </details>
 
@@ -102,13 +102,13 @@ We have included a `transparent` theme that has a transparent background. This t
 You can use the `bg_color` parameter to make any of [the available themes](themes/README.md) transparent. This is done by setting the `bg_color` to a color with a transparent alpha channel (i.e. `bg_color=00000000`):
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehmaluva&show_icons=true&bg_color=00000000)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api?username=sehmaluva&show_icons=true&bg_color=00000000)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehmaluva\&show_icons=true\&bg_color=00000000)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api?username=sehmaluva\&show_icons=true\&bg_color=00000000)
 
 </details>
 
@@ -117,15 +117,15 @@ You can use the `bg_color` parameter to make any of [the available themes](theme
 You can use [GitHub's theme context](https://github.blog/changelog/2021-11-24-specify-theme-context-for-images-in-markdown/) tags to switch the theme based on the user GitHub theme automatically. This is done by appending `#gh-dark-mode-only` or `#gh-light-mode-only` to the end of an image URL. This tag will define whether the image specified in the markdown is only shown to viewers using a light or a dark GitHub theme:
 
 ```md
-[![Anurag's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=sehmaluva&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/sehmaluva/github-readme-stats#gh-dark-mode-only)
-[![Anurag's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=sehmaluva&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/sehmaluva/github-readme-stats#gh-light-mode-only)
+[![Sehmaluva's GitHub Stats-Dark](https://stats.sehmaluva.me/api?username=sehmaluva&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/sehmaluva/github-readme-stats#gh-dark-mode-only)
+[![Sehmaluva's GitHub Stats-Light](https://stats.sehmaluva.me/api?username=sehmaluva&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/sehmaluva/github-readme-stats#gh-light-mode-only)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-[![Anurag's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=sehmaluva\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/sehmaluva/github-readme-stats#gh-dark-mode-only)
-[![Anurag's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=sehmaluva\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/sehmaluva/github-readme-stats#gh-light-mode-only)
+[![Sehmaluva's GitHub Stats-Dark](https://stats.sehmaluva.me/api?username=sehmaluva\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/sehmaluva/github-readme-stats#gh-dark-mode-only)
+[![Sehmaluva's GitHub Stats-Light](https://stats.sehmaluva.me/api?username=sehmaluva\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/sehmaluva/github-readme-stats#gh-light-mode-only)
 
 </details>
 
@@ -136,14 +136,14 @@ You can use [GitHub's new media feature](https://github.blog/changelog/2022-05-1
 ```html
 <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=sehmaluva&show_icons=true&theme=dark"
+    srcset="https://stats.sehmaluva.me/api?username=sehmaluva&show_icons=true&theme=dark"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=sehmaluva&show_icons=true"
+    srcset="https://stats.sehmaluva.me/api?username=sehmaluva&show_icons=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-readme-stats.vercel.app/api?username=sehmaluva&show_icons=true" />
+  <img src="https://stats.sehmaluva.me/api?username=sehmaluva&show_icons=true" />
 </picture>
 ```
 
@@ -152,14 +152,14 @@ You can use [GitHub's new media feature](https://github.blog/changelog/2022-05-1
 
 <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=sehmaluva&show_icons=true&theme=dark"
+    srcset="https://stats.sehmaluva.me/api?username=sehmaluva&show_icons=true&theme=dark"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=sehmaluva&show_icons=true"
+    srcset="https://stats.sehmaluva.me/api?username=sehmaluva&show_icons=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-readme-stats.vercel.app/api?username=sehmaluva&show_icons=true" />
+  <img src="https://stats.sehmaluva.me/api?username=sehmaluva&show_icons=true" />
 </picture>
 
 </details>
@@ -286,7 +286,7 @@ If we don't support your language, please consider contributing! You can find mo
 | `commits_year` | Filters and counts only commits made in the specified year. | integer _(YYYY)_ | `<current year> (one year to date)` |
 
 > [!WARNING]
-> Custom title should be URI-escaped, as specified in [Percent Encoding](https://en.wikipedia.org/wiki/Percent-encoding) (i.e: `Anurag's GitHub Stats` should become `Anurag%27s%20GitHub%20Stats`). You can use [urlencoder.org](https://www.urlencoder.org/) to help you do this automatically.
+> Custom title should be URI-escaped, as specified in [Percent Encoding](https://en.wikipedia.org/wiki/Percent-encoding) (i.e: `Sehmaluva's GitHub Stats` should become `Sehmaluva%27s%20GitHub%20Stats`). You can use [urlencoder.org](https://www.urlencoder.org/) to help you do this automatically.
 
 > [!NOTE]
 > When hide\_rank=`true`, the minimum card width is 270 px + the title length and padding.
@@ -306,7 +306,7 @@ Copy-paste this code into your readme and change the links.
 Endpoint: `api/pin?username=sehmaluva&repo=github-readme-stats`
 
 ```md
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=sehmaluva&repo=github-readme-stats)](https://github.com/sehmaluva/github-readme-stats)
+[![Readme Card](https://stats.sehmaluva.me/api/pin/?username=sehmaluva&repo=github-readme-stats)](https://github.com/sehmaluva/github-readme-stats)
 ```
 
 ### Options
@@ -320,11 +320,11 @@ You can customize the appearance and behavior of the pinned repository card usin
 
 ### Demo
 
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=sehmaluva\&repo=github-readme-stats)
+![Readme Card](https://stats.sehmaluva.me/api/pin/?username=sehmaluva\&repo=github-readme-stats)
 
 Use `show_owner` query option to include the repo's owner username
 
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=sehmaluva\&repo=github-readme-stats\&show_owner=true)
+![Readme Card](https://stats.sehmaluva.me/api/pin/?username=sehmaluva\&repo=github-readme-stats\&show_owner=true)
 
 # GitHub Gist Pins
 
@@ -337,7 +337,7 @@ Copy-paste this code into your readme and change the links.
 Endpoint: `api/gist?id=bbfce31e0217a3689c8d961a356cb10d`
 
 ```md
-[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://gist.github.com/Yizack/bbfce31e0217a3689c8d961a356cb10d/)
+[![Gist Card](https://stats.sehmaluva.me/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://gist.github.com/Yizack/bbfce31e0217a3689c8d961a356cb10d/)
 ```
 
 ### Options
@@ -350,11 +350,11 @@ You can customize the appearance and behavior of the gist card using the [common
 
 ### Demo
 
-![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
+![Gist Card](https://stats.sehmaluva.me/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
 
 Use `show_owner` query option to include the gist's owner username
 
-![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d\&show_owner=true)
+![Gist Card](https://stats.sehmaluva.me/api/gist?id=bbfce31e0217a3689c8d961a356cb10d\&show_owner=true)
 
 # Top Languages Card
 
@@ -379,7 +379,7 @@ Copy-paste this code into your readme and change the links.
 Endpoint: `api/top-langs?username=sehmaluva`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehmaluva)](https://github.com/sehmaluva/github-readme-stats)
+[![Top Langs](https://stats.sehmaluva.me/api/top-langs/?username=sehmaluva)](https://github.com/sehmaluva/github-readme-stats)
 ```
 
 ### Options
@@ -419,7 +419,7 @@ By default, only the byte count is used for determining the languages percentage
 *   `&size_weight=0&count_weight=1` - Orders by repo count
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehmaluva&size_weight=0.5&count_weight=0.5)
+![Top Langs](https://stats.sehmaluva.me/api/top-langs/?username=sehmaluva&size_weight=0.5&count_weight=0.5)
 ```
 
 ### Exclude individual repositories
@@ -427,7 +427,7 @@ By default, only the byte count is used for determining the languages percentage
 You can use the `&exclude_repo=repo1,repo2` parameter to exclude individual repositories.
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehmaluva&exclude_repo=github-readme-stats,sehmaluva.github.io)
+![Top Langs](https://stats.sehmaluva.me/api/top-langs/?username=sehmaluva&exclude_repo=github-readme-stats,sehmaluva.github.io)
 ```
 
 ### Hide individual languages
@@ -435,7 +435,7 @@ You can use the `&exclude_repo=repo1,repo2` parameter to exclude individual repo
 You can use `&hide=language1,language2` parameter to hide individual languages.
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehmaluva&hide=javascript,html)
+![Top Langs](https://stats.sehmaluva.me/api/top-langs/?username=sehmaluva&hide=javascript,html)
 ```
 
 ### Show more languages
@@ -443,7 +443,7 @@ You can use `&hide=language1,language2` parameter to hide individual languages.
 You can use the `&langs_count=` option to increase or decrease the number of languages shown on the card. Valid values are integers between 1 and 20 (inclusive). By default it was set to `5` for `normal` & `donut` and `6` for other layouts.
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehmaluva&langs_count=8)
+![Top Langs](https://stats.sehmaluva.me/api/top-langs/?username=sehmaluva&langs_count=8)
 ```
 
 ### Compact Language Card Layout
@@ -451,7 +451,7 @@ You can use the `&langs_count=` option to increase or decrease the number of lan
 You can use the `&layout=compact` option to change the card design.
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehmaluva&layout=compact)
+![Top Langs](https://stats.sehmaluva.me/api/top-langs/?username=sehmaluva&layout=compact)
 ```
 
 ### Donut Chart Language Card Layout
@@ -459,7 +459,7 @@ You can use the `&layout=compact` option to change the card design.
 You can use the `&layout=donut` option to change the card design.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehmaluva&layout=donut)](https://github.com/sehmaluva/github-readme-stats)
+[![Top Langs](https://stats.sehmaluva.me/api/top-langs/?username=sehmaluva&layout=donut)](https://github.com/sehmaluva/github-readme-stats)
 ```
 
 ### Donut Vertical Chart Language Card Layout
@@ -467,7 +467,7 @@ You can use the `&layout=donut` option to change the card design.
 You can use the `&layout=donut-vertical` option to change the card design.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehmaluva&layout=donut-vertical)](https://github.com/sehmaluva/github-readme-stats)
+[![Top Langs](https://stats.sehmaluva.me/api/top-langs/?username=sehmaluva&layout=donut-vertical)](https://github.com/sehmaluva/github-readme-stats)
 ```
 
 ### Pie Chart Language Card Layout
@@ -475,7 +475,7 @@ You can use the `&layout=donut-vertical` option to change the card design.
 You can use the `&layout=pie` option to change the card design.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehmaluva&layout=pie)](https://github.com/sehmaluva/github-readme-stats)
+[![Top Langs](https://stats.sehmaluva.me/api/top-langs/?username=sehmaluva&layout=pie)](https://github.com/sehmaluva/github-readme-stats)
 ```
 
 ### Hide Progress Bars
@@ -483,7 +483,7 @@ You can use the `&layout=pie` option to change the card design.
 You can use the `&hide_progress=true` option to hide the percentages and the progress bars (layout will be automatically set to `compact`).
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehmaluva&hide_progress=true)
+![Top Langs](https://stats.sehmaluva.me/api/top-langs/?username=sehmaluva&hide_progress=true)
 ```
 
 ### Change format of language's stats
@@ -491,38 +491,38 @@ You can use the `&hide_progress=true` option to hide the percentages and the pro
 You can use the `&stats_format=bytes` option to display the stats in bytes instead of percentage.
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehmaluva&stats_format=bytes)
+![Top Langs](https://stats.sehmaluva.me/api/top-langs/?username=sehmaluva&stats_format=bytes)
 ```
 
 
 ### Demo
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehmaluva)
+![Top Langs](https://stats.sehmaluva.me/api/top-langs/?username=sehmaluva)
 
 *   Compact layout
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehmaluva\&layout=compact)
+![Top Langs](https://stats.sehmaluva.me/api/top-langs/?username=sehmaluva\&layout=compact)
 
 *   Donut Chart layout
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehmaluva\&layout=donut)](https://github.com/sehmaluva/github-readme-stats)
+[![Top Langs](https://stats.sehmaluva.me/api/top-langs/?username=sehmaluva\&layout=donut)](https://github.com/sehmaluva/github-readme-stats)
 
 *   Donut Vertical Chart layout
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehmaluva\&layout=donut-vertical)](https://github.com/sehmaluva/github-readme-stats)
+[![Top Langs](https://stats.sehmaluva.me/api/top-langs/?username=sehmaluva\&layout=donut-vertical)](https://github.com/sehmaluva/github-readme-stats)
 
 *   Pie Chart layout
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehmaluva\&layout=pie)](https://github.com/sehmaluva/github-readme-stats)
+[![Top Langs](https://stats.sehmaluva.me/api/top-langs/?username=sehmaluva\&layout=pie)](https://github.com/sehmaluva/github-readme-stats)
 
 *   Hidden progress bars
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehmaluva\&hide_progress=true)
+![Top Langs](https://stats.sehmaluva.me/api/top-langs/?username=sehmaluva\&hide_progress=true)
 
 
 *  Display bytes instead of percentage
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehmaluva\&stats_format=bytes)
+![Top Langs](https://stats.sehmaluva.me/api/top-langs/?username=sehmaluva\&stats_format=bytes)
 
 # WakaTime Stats Card
 
@@ -535,7 +535,7 @@ You can use the `&stats_format=bytes` option to display the stats in bytes inste
 Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
 
 ```md
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/sehmaluva/github-readme-stats)
+[![Harlok's WakaTime stats](https://stats.sehmaluva.me/api/wakatime?username=ffflabs)](https://github.com/sehmaluva/github-readme-stats)
 ```
 
 ### Options
@@ -561,13 +561,13 @@ You can customize the appearance and behavior of the WakaTime stats card using t
 
 ### Demo
 
-![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)
+![Harlok's WakaTime stats](https://stats.sehmaluva.me/api/wakatime?username=ffflabs)
 
-![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs\&hide_progress=true)
+![Harlok's WakaTime stats](https://stats.sehmaluva.me/api/wakatime?username=ffflabs\&hide_progress=true)
 
 *   Compact layout
 
-![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs\&layout=compact)
+![Harlok's WakaTime stats](https://stats.sehmaluva.me/api/wakatime?username=ffflabs\&layout=compact)
 
 ***
 
@@ -575,73 +575,73 @@ You can customize the appearance and behavior of the WakaTime stats card using t
 
 *   Default
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehmaluva)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api?username=sehmaluva)
 
 *   Hiding specific stats
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehmaluva\&hide=contribs,issues)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api?username=sehmaluva\&hide=contribs,issues)
 
 *   Showing additional stats
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehmaluva\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api?username=sehmaluva\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 
 *   Showing icons
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehmaluva\&hide=issues\&show_icons=true)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api?username=sehmaluva\&hide=issues\&show_icons=true)
 
 *   Shows GitHub logo instead rank level
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehmaluva\&rank_icon=github)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api?username=sehmaluva\&rank_icon=github)
 
 *   Shows user rank percentile instead of rank level
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehmaluva\&rank_icon=percentile)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api?username=sehmaluva\&rank_icon=percentile)
 
 *   Customize Border Color
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehmaluva\&border_color=2e4058)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api?username=sehmaluva\&border_color=2e4058)
 
 *   Include All Commits
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehmaluva\&include_all_commits=true)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api?username=sehmaluva\&include_all_commits=true)
 
 *   Themes
 
 Choose from any of the [default themes](#themes)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehmaluva\&show_icons=true\&theme=radical)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api?username=sehmaluva\&show_icons=true\&theme=radical)
 
 *   Gradient
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehmaluva\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api?username=sehmaluva\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)
 
 *   Customizing stats card
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=sehmaluva\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api/?username=sehmaluva\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515)
 
 *   Setting card locale
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=sehmaluva\&locale=es)
+![Sehmaluva's GitHub Stats](https://stats.sehmaluva.me/api/?username=sehmaluva\&locale=es)
 
 *   Customizing repo card
 
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=sehmaluva\&repo=github-readme-stats\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)
+![Customized Card](https://stats.sehmaluva.me/api/pin?username=sehmaluva\&repo=github-readme-stats\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)
 
 *   Gist card
 
-![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
+![Gist Card](https://stats.sehmaluva.me/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
 
 *   Customizing gist card
 
-![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d&theme=calm)
+![Gist Card](https://stats.sehmaluva.me/api/gist?id=bbfce31e0217a3689c8d961a356cb10d&theme=calm)
 
 *   Top languages
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehmaluva)
+![Top Langs](https://stats.sehmaluva.me/api/top-langs/?username=sehmaluva)
 
 *   WakaTime card
 
-![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)
+![Harlok's WakaTime stats](https://stats.sehmaluva.me/api/wakatime?username=ffflabs)
 
 ***
 
@@ -653,10 +653,10 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 
 ```html
 <a href="https://github.com/sehmaluva/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=sehmaluva" />
+  <img height=200 align="center" src="https://stats.sehmaluva.me/api?username=sehmaluva" />
 </a>
 <a href="https://github.com/sehmaluva/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sehmaluva&layout=compact&langs_count=8&card_width=320" />
+  <img height=200 align="center" src="https://stats.sehmaluva.me/api/top-langs?username=sehmaluva&layout=compact&langs_count=8&card_width=320" />
 </a>
 ```
 
@@ -664,10 +664,10 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 <summary>:eyes: Show example</summary>
 
 <a href="https://github.com/sehmaluva/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=sehmaluva" />
+  <img height=200 align="center" src="https://stats.sehmaluva.me/api?username=sehmaluva" />
 </a>
 <a href="https://github.com/sehmaluva/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sehmaluva&layout=compact&langs_count=8&card_width=320" />
+  <img height=200 align="center" src="https://stats.sehmaluva.me/api/top-langs?username=sehmaluva&layout=compact&langs_count=8&card_width=320" />
 </a>
 
 </details>
@@ -676,10 +676,10 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 
 ```html
 <a href="https://github.com/sehmaluva/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sehmaluva&repo=github-readme-stats" />
+  <img align="center" src="https://stats.sehmaluva.me/api/pin/?username=sehmaluva&repo=github-readme-stats" />
 </a>
 <a href="https://github.com/sehmaluva/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sehmaluva&repo=convoychat" />
+  <img align="center" src="https://stats.sehmaluva.me/api/pin/?username=sehmaluva&repo=convoychat" />
 </a>
 ```
 
@@ -687,10 +687,10 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 <summary>:eyes: Show example</summary>
 
 <a href="https://github.com/sehmaluva/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sehmaluva&repo=github-readme-stats" />
+  <img align="center" src="https://stats.sehmaluva.me/api/pin/?username=sehmaluva&repo=github-readme-stats" />
 </a>
 <a href="https://github.com/sehmaluva/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sehmaluva&repo=convoychat" />
+  <img align="center" src="https://stats.sehmaluva.me/api/pin/?username=sehmaluva&repo=convoychat" />
 </a>
 
 </details>
@@ -733,7 +733,7 @@ Selecting the right scopes for your token is important in case you want to displ
 
 ### :film\_projector: [Check Out Step By Step Video Tutorial By @codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
 
-Since the GitHub API only allows 5k requests per hour, my `https://github-readme-stats.vercel.app/api` could possibly hit the rate limiter. If you host it on your own Vercel server, then you do not have to worry about anything. Click on the deploy button to get started!
+Since the GitHub API only allows 5k requests per hour, my `https://stats.sehmaluva.me/api` could possibly hit the rate limiter. If you host it on your own Vercel server, then you do not have to worry about anything. Click on the deploy button to get started!
 
 > [!NOTE]
 > Since [#58](https://github.com/sehmaluva/github-readme-stats/pull/58), we should be able to handle more than 5k requests and have fewer issues with downtime :grin:.

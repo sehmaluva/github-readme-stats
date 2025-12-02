@@ -33,7 +33,7 @@
     "lint": "npx eslint --max-warnings 0 \"./src/**/*.js\" \"./scripts/**/*.js\" \"./tests/**/*.js\" \"./api/**/*.js\" \"./themes/**/*.js\"",
     "bench": "node --experimental-vm-modules node_modules/jest/bin/jest.js --config jest.bench.config.js"
   },
-  "author": "Anurag Hazra",
+  "author": "sehmaluva",
   "license": "MIT",
   "devDependencies": {
     "@actions/core": "^1.11.1",

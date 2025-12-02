@@ -20,7 +20,7 @@ import { CACHE_TTL, DURATIONS } from "../src/common/cache.js";
  * @type {import("../src/fetchers/stats").StatsData}
  */
 const stats = {
-  name: "Anurag Hazra",
+  name: "sehmaluva",
   totalStars: 100,
   totalCommits: 200,
   totalIssues: 300,

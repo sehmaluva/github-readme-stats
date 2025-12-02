@@ -9,7 +9,7 @@ import { fetchStats } from "../src/fetchers/stats.js";
 const data_stats = {
   data: {
     user: {
-      name: "Anurag Hazra",
+      name: "sehmaluva",
       repositoriesContributedTo: { totalCount: 61 },
       commits: {
         totalCommitContributions: 100,
@@ -142,7 +142,7 @@ describe("Test fetchStats", () => {
 
     expect(stats).toStrictEqual({
       contributedTo: 61,
-      name: "Anurag Hazra",
+      name: "sehmaluva",
       totalCommits: 100,
       totalIssues: 200,
       totalPRs: 300,
@@ -178,7 +178,7 @@ describe("Test fetchStats", () => {
 
     expect(stats).toStrictEqual({
       contributedTo: 61,
-      name: "Anurag Hazra",
+      name: "sehmaluva",
       totalCommits: 100,
       totalIssues: 200,
       totalPRs: 300,
@@ -220,7 +220,7 @@ describe("Test fetchStats", () => {
 
     expect(stats).toStrictEqual({
       contributedTo: 61,
-      name: "Anurag Hazra",
+      name: "sehmaluva",
       totalCommits: 1000,
       totalIssues: 200,
       totalPRs: 300,
@@ -269,7 +269,7 @@ describe("Test fetchStats", () => {
 
     expect(stats).toStrictEqual({
       contributedTo: 61,
-      name: "Anurag Hazra",
+      name: "sehmaluva",
       totalCommits: 1000,
       totalIssues: 200,
       totalPRs: 300,
@@ -300,7 +300,7 @@ describe("Test fetchStats", () => {
 
     expect(stats).toStrictEqual({
       contributedTo: 61,
-      name: "Anurag Hazra",
+      name: "sehmaluva",
       totalCommits: 100,
       totalIssues: 200,
       totalPRs: 300,
@@ -331,7 +331,7 @@ describe("Test fetchStats", () => {
 
     expect(stats).toStrictEqual({
       contributedTo: 61,
-      name: "Anurag Hazra",
+      name: "sehmaluva",
       totalCommits: 100,
       totalIssues: 200,
       totalPRs: 300,
@@ -362,7 +362,7 @@ describe("Test fetchStats", () => {
 
     expect(stats).toStrictEqual({
       contributedTo: 61,
-      name: "Anurag Hazra",
+      name: "sehmaluva",
       totalCommits: 100,
       totalIssues: 200,
       totalPRs: 300,
@@ -391,7 +391,7 @@ describe("Test fetchStats", () => {
 
     expect(stats).toStrictEqual({
       contributedTo: 61,
-      name: "Anurag Hazra",
+      name: "sehmaluva",
       totalCommits: 100,
       totalIssues: 200,
       totalPRs: 300,
@@ -420,7 +420,7 @@ describe("Test fetchStats", () => {
 
     expect(stats).toStrictEqual({
       contributedTo: 61,
-      name: "Anurag Hazra",
+      name: "sehmaluva",
       totalCommits: 100,
       totalIssues: 200,
       totalPRs: 300,
@@ -458,7 +458,7 @@ describe("Test fetchStats", () => {
 
     expect(stats).toStrictEqual({
       contributedTo: 61,
-      name: "Anurag Hazra",
+      name: "sehmaluva",
       totalCommits: 428,
       totalIssues: 200,
       totalPRs: 300,
@@ -491,7 +491,7 @@ describe("Test fetchStats", () => {
 
     expect(stats).toStrictEqual({
       contributedTo: 61,
-      name: "Anurag Hazra",
+      name: "sehmaluva",
       totalCommits: 100,
       totalIssues: 200,
       totalPRs: 0,
