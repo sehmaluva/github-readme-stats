@@ -22,14 +22,27 @@ const RETRIES = process.env.NODE_ENV === "test" ? 7 : PATs;
  * @param {FetcherFunction} fetcher The fetcher function.
  * @param {any} variables Object with arguments to pass to the fetcher function.
  * @param {number} retries How many times to retry.
+ * @param {boolean} hasRateLimitFailure Whether any previous attempt was rate limited (internal use).
  * @returns {Promise<any>} The response from the fetcher function.
  */
-const retryer = async (fetcher, variables, retries = 0) => {
+const retryer = async (
+  fetcher,
+  variables,
+  retries = 0,
+  hasRateLimitFailure = false,
+) => {
   if (!RETRIES) {
     throw new CustomError("No GitHub API tokens found", CustomError.NO_TOKENS);
   }
 
   if (retries >= RETRIES) {
+    // If no rate limit failures occurred, all PATs had bad credentials/were suspended.
+    if (!hasRateLimitFailure) {
+      throw new CustomError(
+        "GitHub token(s) are invalid or expired",
+        CustomError.BAD_CREDENTIALS,
+      );
+    }
     throw new CustomError(
       "Downtime due to GitHub API rate limiting",
       CustomError.MAX_RETRY,
@@ -58,9 +71,8 @@ const retryer = async (fetcher, variables, retries = 0) => {
     // with username, and current RETRIES
     if (isRateLimited) {
       logger.log(`PAT_${retries + 1} Failed`);
-      retries++;
       // directly return from the function
-      return retryer(fetcher, variables, retries);
+      return retryer(fetcher, variables, retries + 1, true);
     }
 
     // finally return the response
@@ -81,11 +93,22 @@ const retryer = async (fetcher, variables, retries = 0) => {
     const isAccountSuspended =
       e?.response?.data?.message === "Sorry. Your account was suspended.";
 
+    // Handle HTTP 403 rate limit responses from the GitHub REST API.
+    // GitHub returns 403 (not 429) for primary and secondary rate limits on the REST API.
+    const isRestRateLimited =
+      e?.response?.status === 403 &&
+      /rate limit/i.test(e?.response?.data?.message || "");
+
     if (isBadCredential || isAccountSuspended) {
       logger.log(`PAT_${retries + 1} Failed`);
-      retries++;
-      // directly return from the function
-      return retryer(fetcher, variables, retries);
+      // directly return from the function, preserving the hasRateLimitFailure state
+      return retryer(fetcher, variables, retries + 1, hasRateLimitFailure);
+    }
+
+    if (isRestRateLimited) {
+      logger.log(`PAT_${retries + 1} Failed`);
+      // directly return from the function, marking a rate limit failure
+      return retryer(fetcher, variables, retries + 1, true);
     }
 
     // HTTP error with a response → return it for caller-side handling
