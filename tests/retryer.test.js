@@ -75,7 +75,7 @@ describe("Test Retryer", () => {
     try {
       await retryer(fetcherFail, {});
     } catch (err) {
-      expect(fetcherFail).toHaveBeenCalledTimes(RETRIES + 1);
+      expect(fetcherFail).toHaveBeenCalledTimes(RETRIES);
       // @ts-ignore
       expect(err.message).toBe("Downtime due to GitHub API rate limiting");
     }

@@ -29,7 +29,7 @@ const retryer = async (fetcher, variables, retries = 0) => {
     throw new CustomError("No GitHub API tokens found", CustomError.NO_TOKENS);
   }
 
-  if (retries > RETRIES) {
+  if (retries >= RETRIES) {
     throw new CustomError(
       "Downtime due to GitHub API rate limiting",
       CustomError.MAX_RETRY,
@@ -37,7 +37,7 @@ const retryer = async (fetcher, variables, retries = 0) => {
   }
 
   try {
-    // try to fetch with the first token since RETRIES is 0 index i'm adding +1
+    // retries is 0-indexed; PAT_1 corresponds to retries=0, PAT_N to retries=N-1
     let response = await fetcher(
       variables,
       // @ts-ignore
