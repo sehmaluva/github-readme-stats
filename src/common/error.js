@@ -13,6 +13,8 @@ const SECONDARY_ERROR_MESSAGES = {
     "You can deploy own instance or wait until public will be no longer limited",
   NO_TOKENS:
     "Please add an env variable called PAT_1 with your GitHub API token in vercel",
+  BAD_CREDENTIALS:
+    "Please check your GitHub token(s) - they may have expired or been revoked. Update your PAT environment variable(s).",
   USER_NOT_FOUND: "Make sure the provided username is not an organization",
   GRAPHQL_ERROR: TRY_AGAIN_LATER,
   GITHUB_REST_API_ERROR: TRY_AGAIN_LATER,
@@ -37,6 +39,7 @@ class CustomError extends Error {
 
   static MAX_RETRY = "MAX_RETRY";
   static NO_TOKENS = "NO_TOKENS";
+  static BAD_CREDENTIALS = "BAD_CREDENTIALS";
   static USER_NOT_FOUND = "USER_NOT_FOUND";
   static GRAPHQL_ERROR = "GRAPHQL_ERROR";
   static GITHUB_REST_API_ERROR = "GITHUB_REST_API_ERROR";
