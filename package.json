@@ -49,7 +49,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-jsdoc": "^62.9.0",
     "express": "^5.1.0",
-    "globals": "^17.4.0",
+    "globals": "^17.5.0",
     "hjson": "^3.2.2",
     "husky": "^9.1.7",
     "jest": "^30.3.0",
